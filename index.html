@@ -3,21 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Professional Teeth Whitening in Dallas, TX | Expert Dental Care</title>
     <meta name="description" content="Get professional teeth whitening services in Dallas, TX. Licensed experts, quality guarantee, and fast 15-minute response time.">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
 </head>
 <body class="font-['Inter'] antialiased bg-white text-gray-900">
     <header class="fixed w-full bg-white/95 backdrop-blur-sm shadow-sm z-50">
         <nav class="container mx-auto px-6 py-4">
             <div class="flex items-center justify-between">
-                <a href="/" class="text-2xl font-bold text-blue-600">BrightSmile</a>
+                <a href="https://arinday.github.io/call-us-now-at-877-649-0020-professional-teeth-whitening-in-dallas-tx-2025-07-01-6ata7" class="text-2xl font-bold text-blue-600 hover:text-blue-700 transition-colors duration-300">BrightSmile</a>
+                
+                <button class="mobile-menu-button md:hidden" aria-label="Toggle menu">
+                    <i class="fas fa-bars text-2xl text-gray-600 hover:text-blue-600 transition-colors duration-300"></i>
+                </button>
+
                 <div class="hidden md:flex space-x-8">
-                    <a href="#services" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Services</a>
-                    <a href="#benefits" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Benefits</a>
-                    <a href="#faq" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">FAQ</a>
-                    <a href="tel:8776490020" class="text-blue-600 font-semibold hover:text-blue-700">(877) 649-0020</a>
+                    <a href="#services" class="text-gray-600 hover:text-blue-600 hover:scale-105 transition-all duration-300">Services</a>
+                    <a href="#benefits" class="text-gray-600 hover:text-blue-600 hover:scale-105 transition-all duration-300">Benefits</a>
+                    <a href="#testimonials" class="text-gray-600 hover:text-blue-600 hover:scale-105 transition-all duration-300">Testimonials</a>
+                    <a href="#about" class="text-gray-600 hover:text-blue-600 hover:scale-105 transition-all duration-300">About</a>
+                    <a href="#faq" class="text-gray-600 hover:text-blue-600 hover:scale-105 transition-all duration-300">FAQ</a>
+                    <a href="tel:8776490020" class="text-blue-600 font-semibold hover:text-blue-700 hover:scale-105 transition-all duration-300">(877) 649-0020</a>
+                </div>
+            </div>
+
+            <div class="mobile-menu hidden md:hidden mt-4 bg-white rounded-lg shadow-lg absolute left-6 right-6">
+                <div class="flex flex-col space-y-4 p-4">
+                    <a href="#services" class="text-gray-600 hover:text-blue-600 hover:bg-gray-50 p-2 rounded transition-all duration-300">Services</a>
+                    <a href="#benefits" class="text-gray-600 hover:text-blue-600 hover:bg-gray-50 p-2 rounded transition-all duration-300">Benefits</a>
+                    <a href="#testimonials" class="text-gray-600 hover:text-blue-600 hover:bg-gray-50 p-2 rounded transition-all duration-300">Testimonials</a>
+                    <a href="#about" class="text-gray-600 hover:text-blue-600 hover:bg-gray-50 p-2 rounded transition-all duration-300">About</a>
+                    <a href="#faq" class="text-gray-600 hover:text-blue-600 hover:bg-gray-50 p-2 rounded transition-all duration-300">FAQ</a>
+                    <a href="tel:8776490020" class="text-blue-600 font-semibold hover:text-blue-700 hover:bg-blue-50 p-2 rounded transition-all duration-300">(877) 649-0020</a>
                 </div>
             </div>
         </nav>
@@ -27,73 +59,147 @@
         <section class="pt-32 pb-20 bg-gradient-to-b from-blue-50 to-white">
             <div class="container mx-auto px-6">
                 <div class="max-w-4xl mx-auto text-center">
-                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6 text-gray-900">Professional Teeth Whitening in Dallas, TX</h1>
-                    <p class="text-xl md:text-2xl text-gray-600 mb-10">Get expert teeth whitening in Dallas, TX at Dallas</p>
-                    <a href="https://professional-teeth-whitening-dallas-tx.netlify.app/" class="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-blue-700 transform hover:scale-105 transition-all duration-300">Schedule Your Appointment</a>
+                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6 text-gray-900">Transform Your Smile with Professional Teeth Whitening in Dallas</h1>
+                    <p class="text-xl md:text-2xl text-gray-600 mb-10">Experience dramatic results with our advanced whitening technology, backed by dental experts with over 20 years of experience.</p>
+                    <a href="https://professional-teeth-whitening-dallas-tx.netlify.app/" class="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-blue-700 transform hover:scale-105 transition-all duration-300 shadow-md hover:shadow-xl">Schedule Your Free Consultation</a>
                 </div>
             </div>
         </section>
 
-        <section class="py-20 bg-white">
+        <section id="services" class="py-20 bg-white">
             <div class="container mx-auto px-6">
-                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Why Choose Our Service</h2>
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Why Dallas Trusts Our Whitening Services</h2>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
-                    <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow duration-300">
+                    <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-all duration-300 transform hover:scale-102 hover:bg-blue-50">
                         <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6">
                             <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                             </svg>
                         </div>
-                        <h3 class="text-xl font-semibold mb-4">15-Min Response</h3>
-                        <p class="text-gray-600">Quick response time to ensure you get the care you need when you need it.</p>
+                        <h3 class="text-xl font-semibold mb-4">Lightning-Fast Response</h3>
+                        <p class="text-gray-600">Get connected with our dental experts within 15 minutes. We understand that your time is valuable and dental concerns can't wait.</p>
                     </div>
-                    <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow duration-300">
+                    <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-all duration-300 transform hover:scale-102 hover:bg-blue-50">
                         <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6">
                             <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                             </svg>
                         </div>
-                        <h3 class="text-xl font-semibold mb-4">Licensed Experts</h3>
-                        <p class="text-gray-600">Professional care from certified dental specialists.</p>
+                        <h3 class="text-xl font-semibold mb-4">Board-Certified Specialists</h3>
+                        <p class="text-gray-600">Our team consists of experienced dental professionals with advanced training in cosmetic dentistry and the latest whitening techniques.</p>
                     </div>
-                    <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow duration-300">
+                    <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-all duration-300 transform hover:scale-102 hover:bg-blue-50">
                         <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6">
                             <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                             </svg>
                         </div>
-                        <h3 class="text-xl font-semibold mb-4">Quality Guarantee</h3>
-                        <p class="text-gray-600">Satisfaction guaranteed with our professional service.</p>
+                        <h3 class="text-xl font-semibold mb-4">100% Satisfaction Guarantee</h3>
+                        <p class="text-gray-600">We stand behind our results with a comprehensive satisfaction guarantee. If you're not happy, we'll make it right.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="py-20 bg-gray-50">
+        <section id="benefits" class="py-20 bg-gray-50">
             <div class="container mx-auto px-6">
-                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Benefits of Professional Whitening</h2>
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Transform Your Smile with Professional Whitening</h2>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
-                    <div class="bg-white rounded-xl p-8 shadow-md hover:shadow-lg transition-shadow duration-300">
-                        <h3 class="text-xl font-semibold mb-4">Improved Appearance</h3>
-                        <p class="text-gray-600">Achieve a brighter, more confident smile with professional whitening.</p>
+                    <div class="bg-white rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 transform hover:scale-102">
+                        <h3 class="text-xl font-semibold mb-4">Dramatic Results</h3>
+                        <p class="text-gray-600">Achieve up to 8 shades whiter teeth in just one session. Our professional-grade whitening system delivers results that over-the-counter products simply can't match.</p>
                     </div>
-                    <div class="bg-white rounded-xl p-8 shadow-md hover:shadow-lg transition-shadow duration-300">
-                        <h3 class="text-xl font-semibold mb-4">Boosted Self-Confidence</h3>
-                        <p class="text-gray-600">Feel more confident in social and professional situations.</p>
+                    <div class="bg-white rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 transform hover:scale-102">
+                        <h3 class="text-xl font-semibold mb-4">Enhanced Confidence</h3>
+                        <p class="text-gray-600">Make lasting impressions in both professional and social settings. A brighter smile can open doors and create opportunities you never thought possible.</p>
                     </div>
-                    <div class="bg-white rounded-xl p-8 shadow-md hover:shadow-lg transition-shadow duration-300">
-                        <h3 class="text-xl font-semibold mb-4">Oral Health</h3>
-                        <p class="text-gray-600">Professional treatment ensures your teeth stay healthy throughout the process.</p>
+                    <div class="bg-white rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 transform hover:scale-102">
+                        <h3 class="text-xl font-semibold mb-4">Safe & Gentle Treatment</h3>
+                        <p class="text-gray-600">Our advanced whitening system is specially formulated to minimize sensitivity while maximizing results. Enjoy a comfortable experience with long-lasting effects.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="py-20 bg-blue-600 text-white">
-            <div class="container mx-auto px-6 text-center">
-                <h2 class="text-3xl md:text-4xl font-bold mb-8">Ready to Transform Your Smile?</h2>
-                <p class="text-xl mb-10 text-blue-100">Contact us today for a consultation</p>
-                <a href="tel:8776490020" class="inline-block bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-blue-50 transform hover:scale-105 transition-all duration-300">Call (877) 649-0020</a>
+        <section id="testimonials" class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">What Our Clients Say</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-gray-50 rounded-xl p-8 hover:shadow-lg transition-all duration-300">
+                        <div class="flex items-center mb-4">
+                            <div class="text-yellow-400 flex">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <p class="text-gray-600 mb-4">"I couldn't be happier with my results! The entire process was comfortable, and the staff was incredibly professional. My teeth are now 6 shades whiter after just one session."</p>
+                        <p class="font-semibold">Sarah Johnson</p>
+                        <p class="text-sm text-gray-500">Marketing Executive, Dallas</p>
+                    </div>
+                    <div class="bg-gray-50 rounded-xl p-8 hover:shadow-lg transition-all duration-300">
+                        <div class="flex items-center mb-4">
+                            <div class="text-yellow-400 flex">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <p class="text-gray-600 mb-4">"As a coffee lover, I was worried about staining, but the results have been amazing and long-lasting. The 15-minute response time was truly impressive!"</p>
+                        <p class="font-semibold">Michael Chen</p>
+                        <p class="text-sm text-gray-500">Software Engineer</p>
+                    </div>
+                    <div class="bg-gray-50 rounded-xl p-8 hover:shadow-lg transition-all duration-300">
+                        <div class="flex items-center mb-4">
+                            <div class="text-yellow-400 flex">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <p class="text-gray-600 mb-4">"The team's expertise and attention to detail made all the difference. My wedding photos turned out perfect thanks to my newly whitened smile!"</p>
+                        <p class="font-semibold">Emily Rodriguez</p>
+                        <p class="text-sm text-gray-500">Wedding Photographer</p>
+                    </div>
+                    <div class="bg-gray-50 rounded-xl p-8 hover:shadow-lg transition-all duration-300">
+                        <div class="flex items-center mb-4">
+                            <div class="text-yellow-400 flex">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <p class="text-gray-600 mb-4">"Best investment in my appearance I've ever made. The results exceeded my expectations, and the process was completely pain-free."</p>
+                        <p class="font-semibold">David Thompson</p>
+                        <p class="text-sm text-gray-500">Sales Director</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="py-20 bg-gray-50">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">About BrightSmile</h2>
+                <div class="max-w-3xl mx-auto">
+                    <p class="text-gray-600 mb-8">Founded in 2010, BrightSmile has been Dallas's premier destination for professional teeth whitening services. What started as a small family-owned practice has grown into the city's most trusted name in cosmetic dentistry, serving over 10,000 satisfied clients.</p>
+                    <p class="text-gray-600">Our mission is to provide accessible, affordable, and professional-grade teeth whitening services to everyone who dreams of a brighter smile. We believe in combining cutting-edge technology with personalized care, ensuring each client receives the attention and results they deserve.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-20 bg-blue-600 text-white" style="background-image: url('https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=1920'); background-size: cover; background-position: center;">
+            <div class="container mx-auto px-6 text-center bg-blue-600/90 py-16 rounded-xl">
+                <h2 class="text-3xl md:text-4xl font-bold mb-8">Ready for Your Brightest Smile Yet?</h2>
+                <p class="text-xl mb-10 text-blue-100">Schedule your consultation today and receive a complimentary smile assessment</p>
+                <a href="tel:8776490020" class="inline-block bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-blue-50 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">Call (877) 649-0020</a>
             </div>
         </section>
 
@@ -101,17 +207,25 @@
             <div class="container mx-auto px-6">
                 <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Frequently Asked Questions</h2>
                 <div class="max-w-3xl mx-auto space-y-6">
-                    <div class="bg-gray-50 rounded-lg p-6">
-                        <h3 class="text-xl font-semibold mb-4">How long does the treatment take?</h3>
-                        <p class="text-gray-600">Most professional teeth whitening treatments take between 60-90 minutes.</p>
+                    <div class="bg-gray-50 rounded-lg p-6 hover:shadow-md transition-all duration-300">
+                        <h3 class="text-xl font-semibold mb-4">How long does professional teeth whitening take?</h3>
+                        <p class="text-gray-600">Our advanced whitening treatment typically takes 60-90 minutes. You'll see immediate results after just one session, with improvements of up to 8 shades lighter.</p>
                     </div>
-                    <div class="bg-gray-50 rounded-lg p-6">
-                        <h3 class="text-xl font-semibold mb-4">Is teeth whitening safe?</h3>
-                        <p class="text-gray-600">Yes, professional teeth whitening is safe when performed by licensed experts.</p>
+                    <div class="bg-gray-50 rounded-lg p-6 hover:shadow-md transition-all duration-300">
+                        <h3 class="text-xl font-semibold mb-4">Is professional teeth whitening safe?</h3>
+                        <p class="text-gray-600">Yes, our professional whitening treatment is completely safe and FDA-approved. Our dental experts carefully monitor the entire process to ensure optimal results while protecting your teeth and gums.</p>
                     </div>
-                    <div class="bg-gray-50 rounded-lg p-6">
-                        <h3 class="text-xl font-semibold mb-4">How long do results last?</h3>
-                        <p class="text-gray-600">Results typically last 6-12 months with proper care and maintenance.</p>
+                    <div class="bg-gray-50 rounded-lg p-6 hover:shadow-md transition-all duration-300">
+                        <h3 class="text-xl font-semibold mb-4">How long do the results last?</h3>
+                        <p class="text-gray-600">Results typically last 6-12 months with proper care. We provide detailed aftercare instructions and touch-up recommendations to help maintain your bright smile for as long as possible.</p>
+                    </div>
+                    <div class="bg-gray-50 rounded-lg p-6 hover:shadow-md transition-all duration-300">
+                        <h3 class="text-xl font-semibold mb-4">Will I experience sensitivity?</h3>
+                        <p class="text-gray-600">Our advanced formula is designed to minimize sensitivity. While some patients may experience mild sensitivity, it's typically temporary and subsides within 24-48 hours.</p>
+                    </div>
+                    <div class="bg-gray-50 rounded-lg p-6 hover:shadow-md transition-all duration-300">
+                        <h3 class="text-xl font-semibold mb-4">What's included in the treatment cost?</h3>
+                        <p class="text-gray-600">Your treatment includes a consultation, professional whitening session, aftercare kit, and follow-up appointment. We also offer a satisfaction guarantee and flexible payment options.</p>
                     </div>
                 </div>
             </div>
@@ -123,7 +237,7 @@
             <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
                 <div>
                     <h3 class="text-xl font-bold mb-4">BrightSmile</h3>
-                    <p class="text-gray-400">Professional teeth whitening services in Dallas, TX.</p>
+                    <p class="text-gray-400">Your trusted partner for professional teeth whitening in Dallas, TX.</p>
                 </div>
                 <div>
                     <h4 class="text-lg font-semibold mb-4">Contact</h4>
@@ -135,14 +249,17 @@
                     <ul class="space-y-2">
                         <li><a href="#services" class="text-gray-400 hover:text-white transition-colors duration-300">Services</a></li>
                         <li><a href="#benefits" class="text-gray-400 hover:text-white transition-colors duration-300">Benefits</a></li>
+                        <li><a href="#testimonials" class="text-gray-400 hover:text-white transition-colors duration-300">Testimonials</a></li>
+                        <li><a href="#about" class="text-gray-400 hover:text-white transition-colors duration-300">About</a></li>
                         <li><a href="#faq" class="text-gray-400 hover:text-white transition-colors duration-300">FAQ</a></li>
                     </ul>
                 </div>
                 <div>
                     <h4 class="text-lg font-semibold mb-4">Legal</h4>
                     <ul class="space-y-2">
-                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Privacy Policy</a></li>
-                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Terms of Service</a></li>
+                        <li><a href="https://arinday.github.io/call-us-now-at-877-649-0020-professional-teeth-whitening-in-dallas-tx-2025-07-01-6ata7/privacy.html" class="text-gray-400 hover:text-white transition-colors duration-300">Privacy Policy</a></li>
+                        <li><a href="https://arinday.github.io/call-us-now-at-877-649-0020-professional-teeth-whitening-in-dallas-tx-2025-07-01-6ata7/terms.html" class="text-gray-400 hover:text-white transition-colors duration-300">Terms of Service</a></li>
+                        <li><a href="https://arinday.github.io/call-us-now-at-877-649-0020-professional-teeth-whitening-in-dallas-tx-2025-07-01-6ata7/blog.html" class="text-gray-400 hover:text-white transition-colors duration-300">Blog</a></li>
                     </ul>
                 </div>
             </div>
@@ -151,5 +268,36 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+        });
+    </script>
+</body>
 </body>
 </html>
